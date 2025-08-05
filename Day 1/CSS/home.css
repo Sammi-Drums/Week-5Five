@@ -1,3 +1,19 @@
 .hero-left{
     /* margin-left: 5%; */
 }
+.btn-gradient {
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    color: white;
+    border: none;
+}
+.btn-gradient:hover {
+    background: linear-gradient(45deg, #5b0dbf, #1f5edc);
+    color: white;
+}
+.bg-banner {
+    /* background: url('../images/banner-bg.jpg') no-repeat center center;
+    background-size: cover; */
+    background-color: #3f11aa;
+    padding: 60px 0;
+    color: white;
+}
