@@ -1,0 +1,82 @@
+/* =============================
+   Global Styles - style.css
+   ============================= */
+
+/* 1. Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Body Typography */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* 3. Navbar Customization */
+.navbar {
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    margin-right: 1rem;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important; /* Yellow Hover Effect */
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* 4. Footer Styling */
+footer {
+    background: #343a40;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* 5. Section Padding */
+section {
+    padding: 60px 0;
+}
+
+/* 6. Headings */
+h1, h2, h3, h4 {
+    font-weight: 600;
+}
+
+/* 7. Buttons General */
+.btn {
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+/* 8. Utilities */
+.text-center {
+    text-align: center;
+}
+
+.mt-5 {
+    margin-top: 3rem;
+}
+
+.mb-5 {
+    margin-bottom: 3rem;
+}
